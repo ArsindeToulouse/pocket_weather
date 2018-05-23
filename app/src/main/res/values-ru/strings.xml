@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Погода в кармане</string>
+    <string name="city_name">Введите название города</string>
+    <string name="user_data">Данные пользователя</string>
+    <string name="enter">вход</string>
+    <string name="pressure">Давление</string>
+    <string name="wet">Влажность</string>
+    <string name="wind">Ветер</string>
+    <string name="temperature">Температура</string>
+</resources>
