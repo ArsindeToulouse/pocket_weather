@@ -7,4 +7,15 @@
     <string name="wet">Wet</string>
     <string name="wind">Wind</string>
     <string name="temperature">Temperature</string>
+    <string name="cities_empty_list">Список городов пуст</string>
+
+    <string-array name="Cities">
+        <item>Khimki</item>
+        <item>Kem</item>
+        <item>Moscow</item>
+        <item>Novgorod</item>
+        <item>Novosibirsk</item>
+        <item>Sevastopol</item>
+        <item>St.-Petersburg</item>
+    </string-array>
 </resources>

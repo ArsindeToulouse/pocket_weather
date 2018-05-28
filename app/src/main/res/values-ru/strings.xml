@@ -8,4 +8,14 @@
     <string name="wet">Влажность</string>
     <string name="wind">Ветер</string>
     <string name="temperature">Температура</string>
+
+    <string-array name="Cities">
+        <item>Химки</item>
+        <item>Кемь</item>
+        <item>Москва</item>
+        <item>Новгород</item>
+        <item>Новосибирск</item>
+        <item>Севастополь</item>
+        <item>С.-Петербург</item>
+    </string-array>
 </resources>
