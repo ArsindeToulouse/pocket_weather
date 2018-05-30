@@ -1,5 +1,7 @@
 package com.arsinde.pocketweather.app;
 
+import android.content.res.Configuration;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
@@ -17,8 +19,17 @@ public class MainApp extends AppCompatActivity {
         FragmentManager fr = getSupportFragmentManager();
         FragmentTransaction ft = fr.beginTransaction();
 
-        CitiesFragment cities = new CitiesFragment();
-        ft.add(R.id.fr_weather, cities);
+        Fragment fragment;
+
+        if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
+            fragment = new WeatherDetailsFragment();
+        } else {
+            fragment = new CitiesFragment();
+        }
+
+        ft.replace(R.id.fr_weather, fragment);
+        ft.addToBackStack(null);
         ft.commit();
+
     }
 }

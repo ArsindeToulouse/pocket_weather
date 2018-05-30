@@ -33,7 +33,7 @@ public class CitiesFragment extends ListFragment {
         ArrayAdapter adapter = ArrayAdapter.createFromResource(getActivity(), R.array.Cities, android.R.layout.simple_list_item_activated_1);
         setListAdapter(adapter);
 
-        View detailsFrame = getActivity().findViewById(R.id.fl_weather_details);
+        View detailsFrame = getActivity().findViewById(R.id.fr_weather);
         isExistWeatherDetails = detailsFrame != null && detailsFrame.getVisibility() == View.VISIBLE;
 
         if (savedInstanceState != null) {
