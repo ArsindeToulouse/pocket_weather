@@ -17,11 +17,5 @@ public class WeatherDetailsActivity extends AppCompatActivity {
             finish();
             return;
         }
-
-        if (savedInstanceState == null) {
-            WeatherDetailsFragment weatherDetails = new WeatherDetailsFragment();
-            weatherDetails.setArguments(getIntent().getExtras());
-            getFragmentManager().beginTransaction().add(android.R.id.content, weatherDetails).commit();
-        }
     }
 }

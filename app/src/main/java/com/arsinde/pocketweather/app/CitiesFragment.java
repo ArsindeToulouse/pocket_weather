@@ -59,23 +59,17 @@ public class CitiesFragment extends ListFragment {
     }
 
     private void showWeatherDetails() {
-        if (isExistWeatherDetails) {
+//        if (isExistWeatherDetails) {
             getListView().setItemChecked(currentPosition, true);
-            WeatherDetailsFragment weatheDetails = (WeatherDetailsFragment) getFragmentManager().findFragmentById(R.id.fl_weather_details);
+            WeatherDetailsFragment weatherDetails = new WeatherDetailsFragment();
 
-            if (weatheDetails == null || weatheDetails.getIndex() != currentPosition) {
-                weatheDetails = WeatherDetailsFragment.create(currentPosition);
-
-                FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
-                fragmentTransaction.replace(R.id.fl_weather_details, weatheDetails);
-                fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
-                fragmentTransaction.commit();
-            } else {
-                Intent intent = new Intent();
-                intent.setClass(getActivity(), WeatherDetailsFragment.class);
-                intent.putExtra("index", currentPosition);
-                startActivity(intent);
-            }
-        }
+//            if (weatheDetails == null || weatheDetails.getIndex() != currentPosition) {
+            FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+            fragmentTransaction.replace(R.id.fr_weather, weatherDetails);
+            fragmentTransaction.addToBackStack(null);
+            fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE);
+            fragmentTransaction.commit();
+//            }
+//        }
     }
 }

@@ -8,14 +8,9 @@
     tools:context=".app.MainApp">
 
     <FrameLayout
+        android:id="@+id/fr_weather"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
-        <fragment
-            android:name="com.arsinde.pocketweather.app.CitiesFragment"
-            android:id="@+id/fr_cities"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
 
     </FrameLayout>
 

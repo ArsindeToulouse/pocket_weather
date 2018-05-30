@@ -1,13 +1,27 @@
 <resources>
-    <string name="app_name">PocketWeather</string>
-    <string name="city_name">Enter the name of the city</string>
-    <string name="user_data">UserData</string>
+    <string name="appName">PocketWeather</string>
+    <string name="cityName">Enter the name of the city</string>
+    <string name="userData">UserData</string>
     <string name="enter">enter</string>
     <string name="pressure">Pressure</string>
     <string name="wet">Wet</string>
     <string name="wind">Wind</string>
     <string name="temperature">Temperature</string>
-    <string name="cities_empty_list">Список городов пуст</string>
+    <string name="citiesEmptyList">The list of cities is empty</string>
+    <string name="templateCityTitle">City name</string>
+    <string name="templateTemperature">temperature</string>
+    <string name="temperatureResult">+22</string>
+    <string name="templatePressure">pressure</string>
+    <string name="templatePressureResult">745 mm</string>
+    <string name="templateWindSpeed">wind speed</string>
+    <string name="templateWindSpeedResult">10 m/s</string>
+    <string name="templateHumidity">humidity</string>
+    <string name="templateHumidityResult">56%</string>
+    <string name="templateSunSet">sunset</string>
+    <string name="templateSunSetResult">sunset</string>
+    <string name="templateSunRise">sunrise</string>
+    <string name="templateSunRiseResult">sunrise</string>
+    <string name="weatherPicture">Weather picture</string>
 
     <string-array name="Cities">
         <item>Khimki</item>
