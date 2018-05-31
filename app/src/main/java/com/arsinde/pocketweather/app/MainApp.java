@@ -23,11 +23,12 @@ public class MainApp extends AppCompatActivity {
 
         if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
             fragment = new WeatherDetailsFragment();
+            ft.replace(R.id.fl_weather, fragment);
         } else {
             fragment = new CitiesFragment();
+            ft.replace(R.id.fr_weather, fragment);
         }
 
-        ft.replace(R.id.fr_weather, fragment);
         ft.addToBackStack(null);
         ft.commit();
 

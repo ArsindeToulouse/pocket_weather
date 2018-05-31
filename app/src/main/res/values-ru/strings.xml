@@ -30,4 +30,6 @@
         <item>Севастополь</item>
         <item>С.-Петербург</item>
     </string-array>
+
+    <string name="serviceError">Невозможно отобразить информацию. Сервис не доступен.</string>
 </resources>

@@ -13,7 +13,7 @@
         android:layout_weight="1"/>
 
     <FrameLayout
-        android:id="@+id/fr_weather"
+        android:id="@+id/fl_weather"
         android:layout_width="0px"
         android:layout_height="match_parent"
         android:layout_weight="1">

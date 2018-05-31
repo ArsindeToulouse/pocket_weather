@@ -32,4 +32,6 @@
         <item>Sevastopol</item>
         <item>St.-Petersburg</item>
     </string-array>
+
+    <string name="serviceError">Impossible to show information. Service is not reachable.</string>
 </resources>
