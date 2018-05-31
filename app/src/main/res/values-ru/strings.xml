@@ -1,11 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Погода в кармане</string>
-    <string name="city_name">Введите название города</string>
-    <string name="user_data">Данные пользователя</string>
+    <string name="appName">Погода в кармане</string>
+    <string name="cityName">Введите название города</string>
+    <string name="userData">Данные пользователя</string>
     <string name="enter">вход</string>
     <string name="pressure">Давление</string>
     <string name="wet">Влажность</string>
     <string name="wind">Ветер</string>
     <string name="temperature">Температура</string>
+    <string name="temperatureResult">+22</string>
+    <string name="citiesEmptyList">Список городов пуст</string>
+    <string name="templateCityTitle">Название города</string>
+    <string name="templateTemperature">температура</string>
+    <string name="templatePressure">Давление</string>
+    <string name="templateWindSpeed">Скорость ветра</string>
+    <string name="templateHumidity">Влажность</string>
+    <string name="templateSunSet">Заход солнца</string>
+    <string name="templateSunSetResult">21:56</string>
+    <string name="templateSunRise">Восход солнца</string>
+    <string name="templateSunRiseResult">04:15</string>
+    <string name="weatherPicture">Weather picture</string>
+
+    <string-array name="Cities">
+        <item>Химки</item>
+        <item>Кемь</item>
+        <item>Москва</item>
+        <item>Новгород</item>
+        <item>Новосибирск</item>
+        <item>Севастополь</item>
+        <item>С.-Петербург</item>
+    </string-array>
+
+    <string name="serviceError">Невозможно отобразить информацию. Сервис не доступен.</string>
 </resources>

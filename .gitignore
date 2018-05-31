@@ -48,3 +48,5 @@ com_crashlytics_export_strings.xml
 local.properties
 secret.properties
 *.p12
+
+gradle.properties
